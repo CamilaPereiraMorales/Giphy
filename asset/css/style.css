@@ -5,7 +5,7 @@ body{
     width: 65%;
     margin: 0 auto;
     text-align: center;
-    background-color: #65737e;
+    background-color: green;
     padding:4%;
 }
 .container img{
@@ -17,7 +17,7 @@ body{
 }
 #elementos .elemento{
     margin: 10px;
-    border: 2px solid #c0c5ce;
+    border: 2px solid orange;
     display: block;
     padding: 10px;
     text-align: left;

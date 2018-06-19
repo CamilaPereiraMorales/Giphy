@@ -20,7 +20,7 @@ inputGif.addEventListener("keypress", (event)=>{
 const renderInfo = data =>{
     data.data.forEach(elements => {
     let gifsImage = elements.images.downsized.url;
-    containerGif.innerHTML = `<img src="${gifsImage}">`;
+    containerGif.innerHTML += `<img src="${gifsImage}">`;
     });
     
 }
